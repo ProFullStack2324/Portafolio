@@ -133,7 +133,7 @@ function App() {
  
           
           {/* Experiencia profesional existente */}
-          <div className="bg-slate-800/50 p-6 rounded-xl mb-6">
+          <div className="bg-slate-800 p-6 rounded-xl mb-6">
             <h3 className="text-xl font-semibold text-blue-400">Técnico de Instalación de Redes</h3>
             <p className="text-slate-300">Ingetel Ingenieria en Telecomunicaciones S.A.S.</p>
             <ul className="mt-3 text-slate-400 list-disc list-inside">
@@ -153,7 +153,7 @@ function App() {
           </div>
           
           <div className="space-y-8">
-            <div className="bg-slate-800/50 p-6 rounded-xl">
+            <div className="bg-slate-800 p-6 rounded-xl">
               <h3 className="text-xl font-semibold text-blue-400">Full-Stack Development & Computer Science</h3>
               <p className="text-slate-300 mt-2">Academlo</p>
               <ul className="mt-3 text-slate-400 list-disc list-inside">
@@ -166,7 +166,7 @@ function App() {
             <ExperienceCarousel images={AcademloImages} />
             </div>
 
-            <div className="bg-slate-800/50 p-6 rounded-xl">
+            <div className="bg-slate-800 p-6 rounded-xl">
               <h3 className="text-xl font-semibold text-blue-400">Técnico Superior en Redes y Mantenimiento de camaras de seguridad IP</h3>
               <p className="text-slate-300 mt-2">Instituto Técnico de Enseñanza Empresarial REDECOMPUTO</p>
             </div>
@@ -182,7 +182,7 @@ function App() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-slate-800/50 p-6 rounded-xl">
+            <div className="bg-slate-800 p-6 rounded-xl">
               <h3 className="text-xl font-semibold text-blue-400 mb-4">Administración de redes</h3>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-center gap-2">
@@ -200,7 +200,7 @@ function App() {
               </ul>
             </div>
 
-            <div className="bg-slate-800/50 p-6 rounded-xl">
+            <div className="bg-slate-800 p-6 rounded-xl">
               <h3 className="text-xl font-semibold text-blue-400 mb-4">Desarrollo</h3>
               <ul className="space-y-2 text-slate-300">
                 <li className="flex items-center gap-2">
@@ -224,19 +224,19 @@ function App() {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <a href="https://github.com" className="flex items-center gap-2 bg-slate-800/50 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
+            <a href="https://github.com" className="flex items-center gap-2 bg-slate-800 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
               <Github className="w-5 h-5" />
               GitHub
             </a>
-            <a href="https://linkedin.com" className="flex items-center gap-2 bg-slate-800/50 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
+            <a href="https://linkedin.com" className="flex items-center gap-2 bg-slate-800 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
               <Linkedin className="w-5 h-5" />
               LinkedIn
             </a>
-            <a href="vagutierrezgut@ut.edu.co" className="flex items-center gap-2 bg-slate-800/50 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
+            <a href="vagutierrezgut@ut.edu.co" className="flex items-center gap-2 bg-slate-800 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
               <Mail className="w-5 h-5" />
               Email
             </a>
-            <a href="+57 3026415239" className="flex items-center gap-2 bg-slate-800/50 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
+            <a href="+57 3026415239" className="flex items-center gap-2 bg-slate-800 px-6 py-3 rounded-full hover:bg-slate-700/50 transition-colors">
               <Mail className="w-5 h-5" />
               Whatsapp +57 3026415239
             </a>
